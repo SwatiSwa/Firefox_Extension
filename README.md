@@ -41,3 +41,9 @@ Testing out the extension
 You can test the extension in Firefox by cd'ing into your extension's(downloaded source code) root directory and entering the following command:
 
 `web-ext run`
+
+# Alternate way
+
+Open "about:debugging" in Firefox, click "Load Temporary Add-on", and select your manifest.json file from the extension root directory. You should then see the extension's icon appear in the Firefox toolbar:
+
+![alt text](resources/add-ons.png)

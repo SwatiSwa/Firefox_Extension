@@ -12,7 +12,7 @@
     ],
 
     "browser_action" : {
-        "default_icon" : "icons/KULO2.ico",
+        "default_icon" : "icons/flower.jpg",
         "default_title" : "Bloomify",
         "default_popup" : "popup/choose_flower.html"
     },

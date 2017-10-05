@@ -1,0 +1,26 @@
+{
+    "manifest_version" : 2,
+    "name" : "bloomify",
+    "version" : "1.0",
+
+    "description" : "Adds a browser icon to the toolbar. Click the button to choose a flower",
+    "icons": {"48" : "icons/KULO2.ico"},
+
+    "permissions" : [
+        "activeTab"
+    ],
+
+    "browser_action" : {
+        "default_icon" : "icons/KULO2.ico",
+        "default_title" : "Bloomify",
+        "default_popup" : "popup/choose_flower.html"
+    },
+
+    "web_accessible_resources" : [
+        "resources/f1.png",
+        "resources/f2.png",
+        "resources/f3.png",
+        "resources/f4.png",
+        "resources/f5.png"
+    ]
+}

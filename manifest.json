@@ -4,6 +4,7 @@
     "version" : "1.0",
 
     "description" : "Adds a browser icon to the toolbar. Click the button to choose a flower",
+    "homepage_url": "https://github.com/SwatiSwa/Firefox_Extension",
     "icons": {"48" : "icons/KULO2.ico"},
 
     "permissions" : [

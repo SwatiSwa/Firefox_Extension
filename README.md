@@ -34,10 +34,10 @@ Clone the repository or download the zipped folder.
 Install web-ext
 web-ext is a node-based application that you can install with the nodejs/npm tool. Install web-ext using the following command:
 
-npm install --global web-ext
+`npm install --global web-ext`
 
 Testing out the extension
 
 You can test the extension in Firefox by cd'ing into your extension's(downloaded source code) root directory and entering the following command:
 
-web-ext run
+`web-ext run`
